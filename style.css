@@ -1,0 +1,94 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 100%;
+    bonder-radius: 5px;
+}
+
+.hero-image{
+    background-image: url("./images/Procrastination/Procrastination.png") ;
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    width: 100%;
+    font-size: 6rem;
+}
+
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.info{
+    font-size: 1.25em;
+}
+
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: rgb(255, 255, 255)
+}
+
+.card-text{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0059ff;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #045aaa;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(69, 143, 255);
+    color: white;
+    text-align: center;
+ }
